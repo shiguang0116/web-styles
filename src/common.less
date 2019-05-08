@@ -1,0 +1,42 @@
+// layout
+.w {
+    padding-left: @grid-gutter-width;
+    padding-right: @grid-gutter-width;
+}
+.h{  
+    padding-top: @grid-gutter-width;
+    padding-bottom: @grid-gutter-width;
+}
+.space {
+    margin-top: @grid-gutter-width;
+}
+.hide {
+    display: none;
+}
+
+// text
+.text{
+    &-left {
+        text-align: left;
+    }
+    &-right {
+        text-align: right;
+    }
+    &-center {
+        text-align: center;
+    }
+    &-color {
+        color: @text-color;
+    }
+    &-error {
+        color: @error-color;
+    }
+}
+.nowrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.break-word {
+    word-wrap: break-word;
+}

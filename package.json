@@ -1,0 +1,30 @@
+{
+  "name": "web-styles",
+  "version": "1.0.0",
+  "description": "桌面端通用样式",
+  "main": "index.less",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiguang0116"
+  },
+  "author": "guang.shi",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-less": "^4.0.1"
+  },
+  "dependencies": {}
+}
